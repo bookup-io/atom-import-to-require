@@ -1,7 +1,10 @@
 {
   "atom-workspace": {
-    "alt-cmd-`": "atom-add-translation:convert",
-    "alt-cmd-^": "atom-add-translation:convertFirst",
-    "alt-cmd-$": "atom-add-translation:convertAll"
+    "alt-cmd-`": "atom-add-translation:convertNoBracket",
+    "alt-cmd-^": "atom-add-translation:convertFirstNoBracket",
+    "alt-cmd-$": "atom-add-translation:convertAllNoBracket",
+    "ctrl-alt-cmd-`": "atom-add-translation:convert",
+    "ctrl-alt-cmd-^": "atom-add-translation:convertFirst",
+    "ctrl-alt-cmd-$": "atom-add-translation:convertAll"
   }
 }

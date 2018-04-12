@@ -8,7 +8,10 @@
     "atom-workspace": [
       "atom-add-translation:convert",
       "atom-add-translation:convertFirst",
-      "atom-add-translation:convertAll"
+      "atom-add-translation:convertAll",
+      "atom-add-translation:convertNoBracket",
+      "atom-add-translation:convertFirstNoBracket",
+      "atom-add-translation:convertAllNoBracket"
     ]
   },
   "repository": "https://github.com/atom/atom-add-translation",

@@ -1,10 +1,12 @@
 {
   "context-menu": {
     "atom-text-editor": [
-      {
-        "label": "Toggle atom-add-translation",
-        "command": "atom-add-translation:toggle"
-      }
+      { "label": "Bookup Translate without {}", "command": "atom-add-translation:convertNoBracket" },
+      { "label": "Bookup Translate with {}", "command": "atom-add-translation:convert" },
+      { "label": "Bookup Translate UppFirst without {}", "command": "atom-add-translation:convertFirstNoBracket" },
+      { "label": "Bookup Translate UppFirst with {}", "command": "atom-add-translation:convertFirst" },
+      { "label": "Bookup Translate UppAll without {}", "command": "atom-add-translation:convertAllNoBracket" },
+      { "label": "Bookup Translate UppAll with {}", "command": "atom-add-translation:convertAll" }
     ]
   },
   "menu": [
@@ -12,12 +14,30 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "atom-add-translation",
+          "label": "Bookup Add Translation",
           "submenu": [
-            {
-              "label": "Toggle",
-              "command": "atom-add-translation:toggle"
-            }
+            { "label": "Translate without {}", "command": "atom-add-translation:convertNoBracket" },
+            { "label": "Translate with {}", "command": "atom-add-translation:convert" },
+            { "label": "Translate UppFirst without {}", "command": "atom-add-translation:convertFirstNoBracket" },
+            { "label": "Translate UppFirst with {}", "command": "atom-add-translation:convertFirst" },
+            { "label": "Translate UppAll without {}", "command": "atom-add-translation:convertAllNoBracket" },
+            { "label": "Translate UppAll with {}", "command": "atom-add-translation:convertAll" }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Edit",
+      "submenu": [
+        {
+          "label": "Bookup Add Translation",
+          "submenu": [
+            { "label": "Translate without {}", "command": "atom-add-translation:convertNoBracket" },
+            { "label": "Translate with {}", "command": "atom-add-translation:convert" },
+            { "label": "Translate UppFirst without {}", "command": "atom-add-translation:convertFirstNoBracket" },
+            { "label": "Translate UppFirst with {}", "command": "atom-add-translation:convertFirst" },
+            { "label": "Translate UppAll without {}", "command": "atom-add-translation:convertAllNoBracket" },
+            { "label": "Translate UppAll with {}", "command": "atom-add-translation:convertAll" }
           ]
         }
       ]
