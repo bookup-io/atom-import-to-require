@@ -3,10 +3,13 @@
   "main": "./lib/atom-add-translation",
   "version": "0.0.0",
   "description": "A short description of your package",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
-    "atom-workspace": "atom-add-translation:toggle"
+    "atom-workspace": [
+      "atom-add-translation:convert",
+      "atom-add-translation:convertFirst",
+      "atom-add-translation:convertAll"
+    ]
   },
   "repository": "https://github.com/atom/atom-add-translation",
   "license": "MIT",
@@ -14,5 +17,6 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "eslint": "^1.8.0"
   }
 }

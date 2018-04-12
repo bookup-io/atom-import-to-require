@@ -1,5 +1,7 @@
 {
   "atom-workspace": {
-    "ctrl-alt-o": "atom-add-translation:toggle"
+    "alt-cmd-`": "atom-add-translation:convert",
+    "alt-cmd-^": "atom-add-translation:convertFirst",
+    "alt-cmd-$": "atom-add-translation:convertAll"
   }
 }
