@@ -1,0 +1,40 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Bookup - Import To Require",
+        "command": "atom-import-to-require:convertToRequire"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Bookup - Import To Require",
+          "submenu": [
+            {
+              "label": "Bookup - Import To Require",
+              "command": "atom-import-to-require:convertToRequire"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Edit",
+      "submenu": [
+        {
+          "label": "Bookup - Import To Require",
+          "submenu": [
+            {
+              "label": "Bookup - Import To Require",
+              "command": "atom-import-to-require:convertToRequire"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,20 +1,15 @@
 {
-  "name": "atom-add-translation",
-  "main": "./lib/atom-add-translation",
+  "name": "atom-import-to-require",
+  "main": "./lib/atom-import-to-require",
   "version": "0.0.0",
   "description": "A short description of your package",
   "keywords": [],
   "activationCommands": {
     "atom-workspace": [
-      "atom-add-translation:convert",
-      "atom-add-translation:convertFirst",
-      "atom-add-translation:convertAll",
-      "atom-add-translation:convertNoBracket",
-      "atom-add-translation:convertFirstNoBracket",
-      "atom-add-translation:convertAllNoBracket"
+      "atom-import-to-require:convertToRequire"
     ]
   },
-  "repository": "https://github.com/atom/atom-add-translation",
+  "repository": "https://github.com/atom/atom-import-to-require",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

@@ -1,0 +1,5 @@
+{
+  "atom-workspace": {
+    "alt-cmd-r": "atom-import-to-require:convertToRequire"
+  }
+}
